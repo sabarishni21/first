@@ -4,4 +4,6 @@ if dish=='white rice':
     print('Have it daily!')
     print('Add ghee!')
 else:
-    print('Interesting choice!')
+    thirsty = input('Are you thirsty?')
+    if thirsty=='yes':
+        print('Drink water!')
