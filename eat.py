@@ -5,4 +5,7 @@ if dish=='white rice':
     print('Add ghee!')
     print('Delicious food!')
 else:
-    print('Interesting choice!')
+    thirsty = input('Are you thirsty?')
+    if thirsty=='yes':
+        print('Drink water!')
+        print('Drink soda!')
